@@ -1,0 +1,109 @@
+body{
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+}
+/* border radius ile çerçeve kenarlarını yumuşatabiliriz */
+.kapsa{
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.header{
+    padding: 30px;
+}
+.header h2{
+    background-color: coral;
+    width: 300px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+}
+.ustmenu{
+    background-color: gainsboro;
+    height: 40px;
+}
+.ustmenu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+/* li içerisindeki sıralamayı float ile istediğimiz yöne kaydırabiliriz */
+.ustmenu ul li{
+    float: left;
+}
+/* display hepsini bir block halinde tutmamıza yarıyor. sonrasında konumunu ayarlayabiliriz.  */
+.ustmenu ul li a{
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* hover ekleyerek mouse ile herhangi bir link üzerine geldiğimizde konumun rengini belirleyebiliyoruz */
+.ustmenu ul li a:hover{
+    color: crimson;
+}
+/* dikey olarak hizalamak için line height uygulayabiliriz.  */
+.ara{
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 10px;
+}
+.ara button{
+    width: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.icerik{
+    background-color: white;
+    height: 500px;
+}
+/* line heigt aralarındaki boşluğu ayarlamak için. text align justify ise yazıların köşeleri doldurmasını ve daha düzenli gözükmesini sağlıyor */
+.soltaraf{
+    width: 600px;
+    line-height: 30px;
+    text-align: justify;
+    float: left;
+}
+/* dashed kesik çizgi oluşturmak için. border bottom ise hedefin altına çerçeve eklemek için */
+.soltaraf h2{
+    width: 600px;
+    border-bottom: 2px dashed black;
+    padding-left: 20px;
+}
+.soltaraf img{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.sagtaraf{
+    width: 270px;
+    margin-left: 30px;
+    float: left;
+}
+.sagtaraf h3{
+    background-color: darkgray;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.sagtaraf ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sagtaraf ul li{
+    height: 40px;
+    background-color: wheat;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
