@@ -1,0 +1,59 @@
+<!-- bir html iskeleti oluşturmanın en hızlı yollu emmet yapılarından faydalanmaktır. ! + tab yaparak hızlı bir html iskeleti oluşturalım -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawlie</title>
+</head>
+<body>
+    <!-- > ifadesini kullanarak kardeş element oluşturuyoruz.ul>li örneğin -->
+    <ul>
+        <li>ve oluşturulmuş oldu.</li>
+    </ul>
+    <!-- ul tagı içinde li tagı oluşturduktan sonra ul tagı dışında bir p tagı eklemek istiyorum. Bunun için ul>li^p yazarak taba basabilirim. -->
+    <ul>
+        <li>örnek</li>
+    </ul>
+    <p>bunun gibi.</p>
+    <!-- bir ul yapısı içerisinde fazladan li yapısı oluşturmak istiyorsak ul>li*3 şeklinde çarpan ve 3 -->
+    <ul>
+        <li>burada olduğu gibi</li>
+        <li>burada olduğu gibi</li>
+        <li>burada olduğu gibi</li>
+    </ul>
+    <!-- Tag eklerken onlara class özelliği vermek için de . ifadesini kullanırız.
+            Örneğin ul.class1>li.class2 yazılarak tab tuşuna basıldığında -->
+    <ul class="class1">
+        <li class="class2">bu şekilde</li>
+    </ul>
+    <!-- Bir id özelliği eklemek için ise # ifadesini kullanırız. Yeni bir örnekle id özelliği eklemeyi görelim. ul#id1>li#id2 diyerek aşağıda gördüğünüz kodu oluşturabiliriz. -->
+    <ul id="id1">
+        <li id="id2">gibi yapılabilir</li>
+    </ul>
+    <!-- böyle tek tek uğraşmak yerine emmet bizim için kolay bir yapı daha getirmiş ":$" bununla sıralı id oluşturabiliriz ul>li#idno$*3 -->
+    <ul>
+        <li id="idno1">bu şekilde</li>
+        <li id="idno2">bu şekilde</li>
+        <li id="idno3">bu şekilde</li>
+    </ul>
+  
+    <!-- bir paragraf oluşturduktan sonra yazacak henüz bir şeyiniz yok ise "lorem" ile rastgele cümleler oluşturabilirsiniz. p>lorem şeklinde çok fazla uzun bir cümle istemiyorsak yanına kelime sayısı kadar sayı ekleyebiliriz. p>lorem5 gibi -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate debitis rerum impedit nulla facilis, ad iusto explicabo illo at, officiis ut alias asperiores necessitatibus ullam. Necessitatibus et sed tempora dicta?</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- peki herhangi bir tag koymaksızın sadece .className yazdıktan sonra Tab’a basarsak ne olur? bizim için bir div oluşturur. # koyarsak id yapısı oluşturur.-->
+    <div class="classname"></div>
+    <div id="deneme"></div>
+    <!-- "div içinde item id barındıran ve 6 paragraflık içlerinde 10 kelimelik lorem olan yapı" -->
+    <!-- div>p#item*6>lorem10 -->
+    <div>
+        <p id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, perferendis?</p>
+        <p id="item">Atque quidem architecto assumenda molestias quia velit rem nobis ratione!</p>
+        <p id="item">Perspiciatis exercitationem tempora illo animi nesciunt quas dolore magnam debitis.</p>
+        <p id="item">Eos autem reiciendis natus corporis impedit quibusdam commodi provident itaque?</p>
+        <p id="item">Facere dicta facilis ipsa harum inventore natus dolores itaque sint?</p>
+        <p id="item">Soluta modi earum necessitatibus minima. Ullam officia aperiam hic at!</p>
+    </div>
+</body>
+</html>
