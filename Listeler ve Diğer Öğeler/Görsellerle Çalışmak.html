@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görsellerle Çalışmak</title>
+    <style>
+         body{
+            background: rgb(241, 208, 145);
+         }
+    </style>
+</head>
+<body>
+    <!-- Kod bloğundaki src="" özelliğine görselin URL ya da dosya adresi belirtilerek resim HTML sayfasına çağırılır. -->
+    <!-- örnek <img> src="ornek.jpg" -->
+    <img src="/img/L.ico" alt="" height="100px" />
+
+    <!-- Örneğin bir proje içerisinde bir dizin oluşturduk ve resmimizi bu dizine ekledik. Bu defa çağırmak için öncelikle img dizinine gitmek gerekiyor -->
+    <!-- <img src="/img/html5.png" /> örnek olarak bu şekilde -->
+    <img src="/img/html5.png" alt="" height="100px">
+
+    <!-- Bu yapı içerisinde bir alt="" imgesi görmüş olabiliriz. bu Alt textlerin temel amacı, görüntüleri göremeyen kullanıcılar için metinler sunmaktır.  -->
+    <!-- Örnek vermek gerekirse <img src="/img/css.png" alt="css logo"/> gibi  -->
+    <img src="/img/css.png" alt="css logo" height="100px">
+
+    <!-- Title özelliği kullanıcıyı bilgilendirme amacı taşır. Cursor(mouse imleci) ile görselin üzerine gelince bu özelliğe verilen text mesajı görünür. -->
+    <!-- örnek <img src="/img/instagram-logo.png" title="İnsta logo" /> -->
+    <img src="/img/instagram-logo.png" title="İnsta logo" height="100px">
+
+    <!-- Görsele istenen ölçüleri vermek için width ve height özellikleri kullanılır. Width yatay genişlik, Height ise dikey uzunluk için kullanılır. Bu ölçülerden yalnızca birine değer verildiğinde görsel oranları korunarak belirlenen ölçüde görünür.-->
+    <!-- <img src="resim.jpg" width="300" /> -->
+    <!-- <img src="resim.jpg" height="400" /> -->
+    <!-- <img src="resim.jpg" width="300" height="600" /> -->
+    <!-- <img src="resim.jpg" height="100%" /> -->
+    <img src="/img/github.png" width="100">
+    <img src="/img/linkedin-logo.png" height="100">
+    <img src="/img/linkedin-logo.png" width="200" height="100">
+
+    <!-- Border Görseli belirtilen kalınlıkta çerçeve içine alır.  -->
+    <img src="/img/html5.png" border="3" width="100">
+
+    <!-- Align Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kullanılır. Bu özelliğe verilebilecek değerler şunlardır: left, right. Görselin sağa veya sola yaslı çıkmasını sağlar. -->
+    <img src="/img/css.png" align="left" height="100">
+
+    <!-- Görsele link vermek için imgtag'i a taginin içerisinde kullanılır. Yönlendirilmek istenen yerin URL'i a taginin href özelliğine yazılır. Görsel ise a taginin açıklama kısmına eklenir. -->
+    <a href="https://github.com/Lawlie01">
+        <img src="/img/github.png" alt="Lawlie Profil linki" style="width: 100px;height: 100px;">
+    </a> <br>
+
+<!-- map ve area Görselleriniz hyperlink atamanız durumunda görselin tüm alanı link alanı haline dönüşecektir. Görselin herhangi bir yerine tıklanılması durumunda görsel sizi tanımlanan bağlantıya gönderecektir. <img> etiketleri için kullanılan <map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz. -->
+    <img src="/img/html5.png" alt="wwokplace" usemap="#workmap" width="400" height="379" border="3" >
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="https://github.com/Lawlie01" alt="github profile">
+        <area shape="rect" coords="290,172,33,250" href="https://www.instagram.com/lawlie.00/" alt="insta profile">
+        <area shape="circle" coords="337,300,44" href="https://www.facebook.com/Lawlie01/" alt="facebook profile">
+    </map>
+
+    <!-- onload Bu olay görsel yüklenmesi tamamlandığında çalışacak fonksiyonu belirler. Herhangi bir nedenle görsel yüklenemezse ya da belirtilen adreste resim yoksa fonksiyon çalışmaz. -->
+    <img src="/img/css.png" onload="ResimYuklendi()" width="400" height="379" border="3px">
+    <script>
+        function ResimYuklendi(){
+            alert("Resim Yüklendi");
+        }
+    </script>
+
+<!-- picture elementi web sayfamızda responsive image'ler kullanmamız konusunda büyük kolaylıklar sağlıyor. Bir tane img ve birden fazla source içerebilir. picture tagi ekran boyutlarına göre birden çok source kulllanmamızı sağlar bu sayede ekran boyutu değiştikçe farklı image'leri kullanabilirsiniz. -->
+<picture>
+
+    <source srcset="https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387__480.png" media="(min-width: 800px)">
+
+    <img src="/img/instagram-logo.png" alt="">
+</picture>
+
+</body>
+</html>
