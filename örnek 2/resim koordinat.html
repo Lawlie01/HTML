@@ -1,0 +1,26 @@
+<html>
+<head>
+<title></title>
+<script src="http://code.jquery.com/jquery-1.5.js"></script>
+<style type="text/css">
+#resim{
+width: 1080px;
+height: 864px;
+background: url(/img/griever.png);
+}
+#msg{
+color:#800000;
+}
+</style>
+</head>
+<body>
+<div id="resim"></div>
+<div id="koordinat"></div>
+<script type="text/javascript">
+$('#resim').mousemove(function(nokta) {
+var bilgi = 'x : ' + nokta.pageX + ' y : ' + nokta.pageY;
+$('#koordinat').text(bilgi);
+});
+</script>
+</body>
+</html>
