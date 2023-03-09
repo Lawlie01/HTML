@@ -51,12 +51,25 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     padding: 6px 13px;
     border-radius: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition: .5s;
+    transition: .3s;
 }
 
 /* .navbar ul li a.active, bu sadece görseli ekranda gösterme amaçlı yazılan bir koddur. transition hareket kazandırma özelliğini veriyor imgelere.*/
 .navbar ul li a:hover{
     background: #ff6e00;
+}
+
+.navbar .logo2 a img{
+    display: inline-block;
+    height: 110px;
+    position: absolute;
+    top: 1%;
+    left: 1%;transform: translate(-1%,-1%);
+    transition: .2s;
+}
+/* transform: scale(1.1) resim üzerine geldiğinde resmin büyümesini sağlar */
+.navbar .logo2 a img:hover{
+    transform: scale(1.2);
 }
 
 /* Yukardan ve soldan boşluk vereceğimiz için position:absolute verebiliriz. user-select: none; komutu ile kopyalanmasını istemediğin yazıları kullanıcılar seçemiyor*/
