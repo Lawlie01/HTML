@@ -35,6 +35,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .navbar ul{
     float: right;
     margin-right: 20px;
+    user-select: none;
 }
 
 .navbar ul li{
@@ -66,6 +67,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     top: 1%;
     left: 1%;transform: translate(-1%,-1%);
     transition: .2s;
+    user-select: none;
 }
 /* transform: scale(1.1) resim üzerine geldiğinde resmin büyümesini sağlar */
 .navbar .logo2 a img:hover{
@@ -96,6 +98,16 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     width: 885px;
     margin-top: 40px;
     margin-left: 150px;
+}
+
+.center p{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 700px;
+    line-height: 30px;
+    text-align: justify;
+    float: left;
+    color: azure;
 }
 
 .center .buttons{
