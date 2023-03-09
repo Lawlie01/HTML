@@ -76,7 +76,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .container .center{
     position: absolute;
     top: 30%;
-    left: 17%;transform: translate(-20%,-15%);
+    left: 16%;transform: translate(-20%,-15%);
     font-family: sans-serif;
     user-select: none;
 }
@@ -95,7 +95,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     font-weight: bold;
     width: 885px;
     margin-top: 40px;
-    margin-left: 220px;
+    margin-left: 150px;
 }
 
 .center .buttons{
