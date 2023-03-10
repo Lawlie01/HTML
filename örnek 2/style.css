@@ -60,9 +60,10 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     background: #ff6e00;
 }
 
-.navbar .logo2 a img{
+.navbar .logo2 img{
     display: inline-block;
     height: 110px;
+    width: 140px;
     position: absolute;
     top: 1%;
     left: 1%;transform: translate(-1%,-1%);
@@ -70,7 +71,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     user-select: none;
 }
 /* transform: scale(1.1) resim üzerine geldiğinde resmin büyümesini sağlar */
-.navbar .logo2 a img:hover{
+.navbar .logo2 img:hover{
     transform: scale(1.2);
 }
 
