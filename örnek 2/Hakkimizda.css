@@ -4,8 +4,6 @@
     padding: 0px;
 }
 
-/* Viewport Height (vh)
-vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .container{
     background: url(/img/zell.jpg);
     height: 100vh;
@@ -18,7 +16,6 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     background: rgba(218, 145, 77, 0.4);
 }
 
-/* inline-block line'ın içerisindeki logo kısmını etkiler.sadece Block özelliği verirsek komple line ile birlikte etki etmesini sağlar. */
 .navbar .logo{
     display: inline-block;
     margin-left: 50px;
@@ -55,7 +52,6 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     transition: .3s;
 }
 
-/* .navbar ul li a.active, bu sadece görseli ekranda gösterme amaçlı yazılan bir koddur. transition hareket kazandırma özelliğini veriyor imgelere.*/
 .navbar ul li a:hover{
     background: #ff6e00;
 }
@@ -70,12 +66,10 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     transition: .2s;
     user-select: none;
 }
-/* transform: scale(1.1) resim üzerine geldiğinde resmin büyümesini sağlar */
 .navbar .logo2 img:hover{
     transform: scale(1.2);
 }
 
-/* Yukardan ve soldan boşluk vereceğimiz için position:absolute verebiliriz. user-select: none; komutu ile kopyalanmasını istemediğin yazıları kullanıcılar seçemiyor*/
 .container .center{
     position: absolute;
     top: 27%;
@@ -118,7 +112,6 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     margin-top: 45px;
 }
 
-/* cursor: pointer; button üzerine geldiğimiz de el işareti çıkmasını sağlıyor.outline: none; button üzerine geldiğimiz de dış borderın oluşmasını engelliyor. */
 .buttons button{
     height: 50px;
     width: 150px;
