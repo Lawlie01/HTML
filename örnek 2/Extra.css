@@ -82,7 +82,7 @@
 .container .center{
     position: absolute;
     top: 20%;
-    left: 50%;transform: translate(-50%,-10%);
+    left: 20%;transform: translate(-50%,-10%);
     font-family: sans-serif;
     user-select: none;
     width: 600px;
@@ -93,7 +93,8 @@
 
 .center h1{
     color: aliceblue;
-    margin-left: 80px;
+    margin-top: 50px;
+    margin-left: 650px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
@@ -103,8 +104,8 @@
 /* text shadow yazıya gölge vermeyi sağlar.1. px yatay yönde ilerleme sağlar. 2. px dikey yönde ve 3. px ise blur efekti katar. */
 .center h2{
     color: aliceblue;
-    margin-top: 150px;
-    margin-left: 550px;
+    margin-top: 100px;
+    margin-left: 1050px;
     font-family: 'Great Vibes', cursive;
     font-size: 70px;
     text-shadow: 60px 70px 4px rgb(75, 75, 75, 0.6);
@@ -113,9 +114,22 @@
     display: block;
 }
 
+.center h3{
+    color: aliceblue;
+    float: left;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    text-shadow: 60px 70px 4px rgb(75, 75, 75, 0.6);
+    font-weight: lighter;
+    width: 500px;
+    display: block;
+}
+
 .center p{
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 750px;
     width: 600px;
     line-height: 30px;
     text-align: justify;
