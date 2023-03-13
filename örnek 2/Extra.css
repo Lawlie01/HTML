@@ -110,7 +110,7 @@
     font-size: 70px;
     text-shadow: 60px 70px 4px rgb(75, 75, 75, 0.6);
     font-weight: lighter;
-    width: 600px;
+    width: 400px;
     display: block;
 }
 
@@ -148,30 +148,4 @@
 .center p a{
     text-decoration: none;
     color: aliceblue;
-}
-
-.center .buttons{
-    display: inline-block;
-    margin-left: 170px;
-    margin-top: 45px;
-}
-
-.buttons button{
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0 10px;
-    color: rgb(231, 178, 124);
-    background: #c7661b;
-    border: solid 1px rgb(167, 68, 3);
-    cursor: pointer;
-    border-radius: 25px;
-    outline: none;
-    transition: 1s;
-}
-
-.buttons button:hover{
-    background: #ffff;
 }
