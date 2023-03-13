@@ -9,11 +9,11 @@
     background: url(/img/main-characters/squall\ leonheart.jpg);
     width:100%;
     min-width:1000px;
-    height:234vh;
+    height:230vh;
 }
 .container .second{
     width: 100%;
-    margin-top: 1000px;
+    margin-top: 1050px;
 }
 
 /* z-index değeri; aynı z-ekseninde bulunan(kapsayan elementler hariç) katmanların altta mı üstte mi kalacağınız belirlemek için kullanılır. z-index sadece position değeri relative, absolute ve fixed olan nesnelere uygulanır. navbar'ı sabitlemek için ise position:fixed kodunu eklememiz yeterli. */
@@ -93,7 +93,7 @@
 
 .center h1{
     color: aliceblue;
-    margin-top: 50px;
+    margin-top: 120px;
     margin-left: 650px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -118,13 +118,21 @@
     color: aliceblue;
     float: left;
     margin-top: 300px;
-    margin-left: 200px;
+    margin-left: 110px;
     font-family: 'Great Vibes', cursive;
     font-size: 70px;
     text-shadow: 60px 70px 4px rgb(75, 75, 75, 0.6);
     font-weight: lighter;
     width: 500px;
     display: block;
+}
+
+.center ul{
+    float: left;
+}
+
+.center ul li{
+    margin-left: -500px;
 }
 
 .center p{
