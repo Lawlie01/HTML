@@ -73,7 +73,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     height: 110px;
     width: 140px;
     position: absolute;
-    top: 1%;
+    top: 11%;
     left: 1%;transform: translate(-1%,-1%);
     transition: .2s;
     user-select: none;
