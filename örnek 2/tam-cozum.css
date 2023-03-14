@@ -106,13 +106,28 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 }
 
 .orta p{
+    float: left;
     padding: 20px;
-    background: rgba(5, 5, 5, 0.4);
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.6);
 }
 
 .orta p a{
     text-decoration: none;
     color: rgb(255, 115, 0);
+}
+
+.orta img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 450px;
+    display: block;
+    width: 640px;
+    border-radius: 10px;
+}
+
+.sagmenu img{
+    width: 400px;
 }
 
 .center h2{
