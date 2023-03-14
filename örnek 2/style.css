@@ -7,7 +7,7 @@
 /* Viewport Height (vh)
 vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .container{
-    background: url(/img/leonhart.jpg);
+    background: url(../img/leonhart.jpg);
     height: 100vh;
     background-size: 100% 100%;
 }

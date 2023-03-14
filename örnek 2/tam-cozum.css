@@ -5,13 +5,17 @@
     padding: 0px;
 }
 
+/* webkit-scrollbar sağda gözüken scroll çubuğunu gizlemeye yarar fakat işlevselliğini kaybetmez */
+::-webkit-scrollbar{
+    display: none;
+}
+
 /* Viewport Height (vh)
 vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .container{
-    background: url(/img/black-back.jpg);
+    background: url(../img/black-back.jpg);
     height: 300vh;
     background-size: 100% 100%;
-    
 }
 
 .container .navbar{
@@ -113,7 +117,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 
 .center h2{
     color: aliceblue;
-    margin: 10px 300px;
+    margin: 10px 200px;
     font-family: 'Great Vibes', cursive;
     font-size: 80px;
     text-shadow: 100px 70px 4px rgb(75, 75, 75, 0.7);
@@ -125,7 +129,7 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 
 .center p{
     margin-top: 45px;
-    margin-left: 500px;
+    margin-left: 400px;
     width: 700px;
     line-height: 30px;
     text-align: justify;

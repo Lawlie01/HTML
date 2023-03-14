@@ -5,8 +5,13 @@
     padding: 0px;
 }
 
+/* webkit-scrollbar sağda gözüken scroll çubuğunu gizlemeye yarar fakat işlevselliğini kaybetmez */
+::-webkit-scrollbar{
+    display: none;
+}
+
 .container{
-    background: url(/img/main-characters/squall\ leonheart.jpg);
+    background: url(../img/main-characters/squall\ leonheart.jpg);
     width:100%;
     min-width:1000px;
     height:230vh;
@@ -70,7 +75,7 @@
     height: 110px;
     width: 140px;
     position: absolute;
-    top: 1%;
+    top: 11%;
     left: 1%;transform: translate(-1%,-1%);
     transition: .2s;
     user-select: none;
