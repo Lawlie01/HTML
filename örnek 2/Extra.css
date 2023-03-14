@@ -14,11 +14,12 @@
     background: url(../img/main-characters/squall\ leonheart.jpg);
     width:100%;
     min-width:1000px;
-    height:230vh;
+    height:100vh;
+    background-size: 100% 100%;
 }
 .container .second{
     width: 100%;
-    margin-top: 1050px;
+    margin-top: 939px;
 }
 
 /* z-index değeri; aynı z-ekseninde bulunan(kapsayan elementler hariç) katmanların altta mı üstte mi kalacağınız belirlemek için kullanılır. z-index sadece position değeri relative, absolute ve fixed olan nesnelere uygulanır. navbar'ı sabitlemek için ise position:fixed kodunu eklememiz yeterli. */
