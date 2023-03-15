@@ -14,7 +14,7 @@
 vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
 .container{
     background: url(../img/black-back.jpg);
-    height: 300vh;
+    height: 500vh;
     background-size: 100% 100%;
 }
 
@@ -140,6 +140,32 @@ vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
     width: 400px;
     display: block;
     
+}
+
+.center h3{
+    display: block;
+    color: aliceblue;
+    margin: 30px 200px;
+    text-shadow: 50px 50px 4px rgb(75, 75, 75, 0.7);
+    font-size: 30px;
+    float: left;
+}
+
+.center h4{
+    display: block;
+    color: aliceblue;
+    margin: 10px -190px;
+    text-shadow: 50px 50px 4px rgb(75, 75, 75, 0.7);
+    font-family: 'Great Vibes', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    float: left;
+}
+
+.center iframe{
+    display: block;
+    float: left;
+    margin: 350px -370px;
 }
 
 .center p{
