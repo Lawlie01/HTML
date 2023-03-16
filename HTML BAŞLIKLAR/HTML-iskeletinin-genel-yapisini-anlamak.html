@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <h1>HTML İskeletinin Genel Yapısını Anlamak</h1>
+    <h1 id="bas">HTML İskeletinin Genel Yapısını Anlamak</h1>
 
 <p>
     Web tasarım konusunda araştırma yapan hemen herkesin karşına çıkan temel kavram HTML'dir. Web sayfalarını oluşturma aşamasında kullanılan standart bir metin işaret dili olan HTML açılımı “Hyper Text Markup Language” olarak bilinir. Genel bilinen yanlış kanının aksine HTML bir programlama dili değildir. <br>
@@ -25,5 +25,48 @@ Her HTML sayfasındaki ilk sayfa yapısı etiketi "html" etiketidir. Bu dosyanı
 <b>body etiketi</b> <br>
     HTML sayfanızın içeriği "body" etiketi içinde bulunur . Bu, tüm metni ve diğer içeriği (bağlantılar, resimler vb.) içerir.
 </p>
+<h1>Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı</h1>
+<p>
+    Semantik, anlam veya anlamlandırma anlamı ifadesi taşımaktadır. O halde semantik elementler herhangi bir anlamı olan etiketler ifadesi taşımaktadır. Semantik olarak anlamlandırılmış bir element hem tarayıcıya hem geliştiriciye ne anlama geldiğini açık bir şekilde belirtir. "div" ve "span" gibi elementler semantik olmayan elementlerdir ve mevcut içeriğin hakkında bilgi vermezler. "form", "table" ve "img" gibi elementler semantik elementlerdir ve içeriği açıkça belirtirler. <br>
+    <b>header Elementi</b> <br>
+header elementi bir doküman veya bir "section" için bir başlık olduğunu belirtir. İçinde barındırdığı içeriği kapsayıcı olmalıdır. Bir dokümanda birden fazla kullanılabilir.
+
+Aşağıdaki örnek, bir "article" için bir başlık içermektedir.
+</p>
+<header>
+    <h1>HTML ETİKET KULLANIMI</h1>
+</header>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis earum ducimus tempora, accusantium ipsam vero. Ab dignissimos ad consectetur impedit, voluptas quasi voluptates quo eligendi maxime minima, quas molestias repellat at eius corporis nam ullam.
+</p>
+<p>
+    <b>nav Elementi</b> <br>
+nav elementi navigasyon bağlantıları büyük sayfalar için ortaya çıkarılmıştır. Fakat, sayfadaki tüm linkler bu element içinde olmak zorunda değildir.
+</p>
+
+<nav> Lawlie Leonhart Hakkımızda </nav>
+
+<p>
+    <b>"section" Elementi</b> <br>
+        Section elementi bir doküman içinde olan sadece bir kısmı belirtir.
+
+        <b>figure Elementi</b> <br>
+İçeriğinde resim, gösterim, diyagram, kod listeleri vs. gibi nesnelerin olduğunu belirtir. Ana akış ile ilgili olsa da, konumu ana akıştan tamamen bağımsızdır. Çıkarılırsa dokümanın akışını engellemez.
+<!-- <figure>
+	<img src="https://cdn.sanity.io/images/9kdepi1d/production/1a22b9fada2411b7369592fd852613637834e866-5520x3680.jpg?auto=format" />
+</figure> -->
+<b>aside Elementi</b> <br>
+"aside" elementi içerdiğinden farklı olarak daha başka bazı içerikleri tanımlar. İçeriği, üst içerik hakkında olmalıdır. <br>
+
+<b>article Elementi</b> <br>
+"article" elementi bir makale elementidir. Bir makale web sayfasının geri kalanından bağımsız olarak dağıtılabilmelidir.
+
+Genelde bu elementin kullanabildiği yerler forum mesajları, blog gönderileri, haber metinleri, yorumlar gibi makale içeren metinlerdir. <br>
+
+<b>footer Elementi</b> <br>
+"footer" elementi bir doküman ya da kısım için alt bilgilerini belirtir. Bir "footer" genelde dokümanın yazarını, telif haklarını, kullanım gizliği, iletisim vs. gibi bilgileri içerir ve bir dokümanda bir kereden fazla kullanılabilir. <br>
+</p>
+
+<a href="#bas">Başa Git</a>
 </body>
 </html>
